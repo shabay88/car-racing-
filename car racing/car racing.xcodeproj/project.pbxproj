@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C825963326FF1F86004EF03C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C825963226FF1F86004EF03C /* AppDelegate.swift */; };
+		C825963526FF1F86004EF03C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C825963426FF1F86004EF03C /* SceneDelegate.swift */; };
+		C825963726FF1F86004EF03C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C825963626FF1F86004EF03C /* ViewController.swift */; };
+		C825963A26FF1F86004EF03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C825963826FF1F86004EF03C /* Main.storyboard */; };
+		C825963C26FF1F88004EF03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C825963B26FF1F88004EF03C /* Assets.xcassets */; };
+		C825963F26FF1F88004EF03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C825963D26FF1F88004EF03C /* LaunchScreen.storyboard */; };
+		C8D242C82704D31F001136DD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D242C72704D31F001136DD /* FirstViewController.swift */; };
+		C8D242CA2704D632001136DD /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D242C92704D632001136DD /* Extension+UIView.swift */; };
+		C8D2432E2715FE11001136DD /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D2432D2715FE11001136DD /* GameSettings.swift */; };
+		C8D243372718C51B001136DD /* ControllerKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D243362718C51B001136DD /* ControllerKeys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C825962F26FF1F86004EF03C /* car racing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "car racing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C825963226FF1F86004EF03C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C825963426FF1F86004EF03C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C825963626FF1F86004EF03C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C825963926FF1F86004EF03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C825963B26FF1F88004EF03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C825963E26FF1F88004EF03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C825964026FF1F88004EF03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D242C72704D31F001136DD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C8D242C92704D632001136DD /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		C8D2432D2715FE11001136DD /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		C8D243362718C51B001136DD /* ControllerKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerKeys.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C825962C26FF1F86004EF03C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C825962626FF1F86004EF03C = {
+			isa = PBXGroup;
+			children = (
+				C825963126FF1F86004EF03C /* car racing */,
+				C825963026FF1F86004EF03C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C825963026FF1F86004EF03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C825962F26FF1F86004EF03C /* car racing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C825963126FF1F86004EF03C /* car racing */ = {
+			isa = PBXGroup;
+			children = (
+				C8D2432F2716137C001136DD /* singletons */,
+				C825963226FF1F86004EF03C /* AppDelegate.swift */,
+				C825963426FF1F86004EF03C /* SceneDelegate.swift */,
+				C8D242C72704D31F001136DD /* FirstViewController.swift */,
+				C825963626FF1F86004EF03C /* ViewController.swift */,
+				C825963826FF1F86004EF03C /* Main.storyboard */,
+				C825963B26FF1F88004EF03C /* Assets.xcassets */,
+				C825963D26FF1F88004EF03C /* LaunchScreen.storyboard */,
+				C825964026FF1F88004EF03C /* Info.plist */,
+			);
+			path = "car racing";
+			sourceTree = "<group>";
+		};
+		C8D2432F2716137C001136DD /* singletons */ = {
+			isa = PBXGroup;
+			children = (
+				C8D2432D2715FE11001136DD /* GameSettings.swift */,
+				C8D242C92704D632001136DD /* Extension+UIView.swift */,
+				C8D243362718C51B001136DD /* ControllerKeys.swift */,
+			);
+			path = singletons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C825962E26FF1F86004EF03C /* car racing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C825964326FF1F88004EF03C /* Build configuration list for PBXNativeTarget "car racing" */;
+			buildPhases = (
+				C825962B26FF1F86004EF03C /* Sources */,
+				C825962C26FF1F86004EF03C /* Frameworks */,
+				C825962D26FF1F86004EF03C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "car racing";
+			productName = "car racing";
+			productReference = C825962F26FF1F86004EF03C /* car racing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C825962726FF1F86004EF03C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C825962E26FF1F86004EF03C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C825962A26FF1F86004EF03C /* Build configuration list for PBXProject "car racing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C825962626FF1F86004EF03C;
+			productRefGroup = C825963026FF1F86004EF03C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C825962E26FF1F86004EF03C /* car racing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C825962D26FF1F86004EF03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C825963F26FF1F88004EF03C /* LaunchScreen.storyboard in Resources */,
+				C825963C26FF1F88004EF03C /* Assets.xcassets in Resources */,
+				C825963A26FF1F86004EF03C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C825962B26FF1F86004EF03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D242C82704D31F001136DD /* FirstViewController.swift in Sources */,
+				C825963726FF1F86004EF03C /* ViewController.swift in Sources */,
+				C8D242CA2704D632001136DD /* Extension+UIView.swift in Sources */,
+				C8D2432E2715FE11001136DD /* GameSettings.swift in Sources */,
+				C825963326FF1F86004EF03C /* AppDelegate.swift in Sources */,
+				C825963526FF1F86004EF03C /* SceneDelegate.swift in Sources */,
+				C8D243372718C51B001136DD /* ControllerKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C825963826FF1F86004EF03C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C825963926FF1F86004EF03C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C825963D26FF1F88004EF03C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C825963E26FF1F88004EF03C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C825964126FF1F88004EF03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C825964226FF1F88004EF03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C825964426FF1F88004EF03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2D3726SU2;
+				INFOPLIST_FILE = "car racing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.car-racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C825964526FF1F88004EF03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2D3726SU2;
+				INFOPLIST_FILE = "car racing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.car-racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C825962A26FF1F86004EF03C /* Build configuration list for PBXProject "car racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C825964126FF1F88004EF03C /* Debug */,
+				C825964226FF1F88004EF03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C825964326FF1F88004EF03C /* Build configuration list for PBXNativeTarget "car racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C825964426FF1F88004EF03C /* Debug */,
+				C825964526FF1F88004EF03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C825962726FF1F86004EF03C /* Project object */;
+}
